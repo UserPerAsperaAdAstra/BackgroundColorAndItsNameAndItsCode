@@ -165,7 +165,7 @@ infoLabel.innerText="Current Color code and name information ";
 infoLabel.id="infoLabel";
 infoLabel.style.position="relative";
 infoLabel.style.left="450px";
-infoLabel.style.top="400px"; //buttonColorChange.style.top+100+"px";
+infoLabel.style.top="400px";
 document.body.appendChild(infoLabel);
 
 const infoLabelSuggested=document.createElement('label');
@@ -173,7 +173,7 @@ infoLabelSuggested.innerText="New Color Suggestion: ";
 infoLabelSuggested.id="infoLabel2";
 infoLabelSuggested.style.position="absolute";
 infoLabelSuggested.style.left="1000px";
-infoLabelSuggested.style.top="450px"; //buttonColorChange.style.top+100+"px";
+infoLabelSuggested.style.top="450px";
 document.body.appendChild(infoLabelSuggested);
 
 var startColor=document.body.style.backgroundColor="White";
